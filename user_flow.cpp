@@ -86,7 +86,15 @@ void signup(){
           cout << "Enter Your email: ";
           cin >> it.email;
           cout << "\n";   
-          Student temp;
-          temp.update_data();
+          Doctor temp;
+          temp.updatedata();
        }
+}
+int main(){
+       Student temp1;
+       Doctor temp2;
+    temp1.adddata();
+    temp2. AddData();
+     User temp3;
+     temp3.Show_menu();
 }
